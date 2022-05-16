@@ -258,7 +258,7 @@ body { background: var(--white); }
 .hero .btn-primary { margin-inline: auto; }
 
 .hero-banner img { 
-  width: 110%;
+  width: 100%;
   height: auto;
 }
 
@@ -364,7 +364,10 @@ body { background: var(--white); }
 
 .features-banner { margin-bottom: 35px; }
 
-.features-banner img { width: 100%; }
+.features-banner img { 
+  width: 100%;
+  padding: 1.5em 0 0;
+}
 
 .features-content-subtitle {
   display: flex;
@@ -734,6 +737,11 @@ footer .logo { margin-bottom: 25px; }
    .hero{
     padding: 225px 0 var(--section-padding);
    }
+
+   .hero-banner img { 
+    width: 110%;
+    height: auto;
+  }
 
   .container { max-width: 720px; }
 
